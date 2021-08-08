@@ -1,8 +1,9 @@
+import Layout from "../../components/Layout"
 const EventPage = () => {
     return (
-        <div>
+        <Layout>
             <h1>Event</h1>
-        </div>
+        </Layout>
     )
 }
 

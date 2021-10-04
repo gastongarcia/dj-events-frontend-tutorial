@@ -22,13 +22,19 @@ const Header = () => {
         <div className="lg:flex-grow md:items-center lg:items-center ml-10 pt-3 tracking-tight">
           <div className="mt-4 lg:inline-block lg:mt-0 text-gray-600 text-lg hover:text-black hover:underline mr-8">
             <Link href="/" activeClassName="underline">
-              Home
+              <a>Home</a>
+            </Link>
+          </div>
+
+          <div className="mt-4 lg:inline-block lg:mt-0 text-gray-600 text-lg hover:text-black hover:underline mr-8">
+            <Link href="/about" activeClassName="underline">
+              <a>About</a>
             </Link>
           </div>
 
           <div className="mt-4 lg:inline-block lg:mt-0 text-gray-600 text-lg hover:text-black hover:underline mr-8">
             <Link href="/events" activeClassName="underline">
-              Events
+              <a>Events</a>
             </Link>
           </div>
         </div>
